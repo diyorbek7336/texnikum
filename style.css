@@ -1,0 +1,297 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    user-select: none;
+}
+
+
+
+.container{
+    width: 100%;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+
+.center{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+header{
+    padding: 40px;
+    position: fixed; 
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    background-color: #FFF2E1;
+    text-align: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 1px 0px 5px 0px rgb(86, 3, 3);
+-moz-box-shadow: 1px 0px 5px 0px rgb(83, 4, 4);
+box-shadow: 1px 0px 5px 0px rgb(90, 2, 2);
+}
+
+
+.ul_gap{
+    width: 650px;
+    align-items: center;
+}
+
+
+li a{
+    color:#252641;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+li a:hover{
+    color: #555555;
+    border-bottom: 1px solid #555555;
+}
+
+
+
+#language{
+    width: 150px;
+    border-radius: 5px;
+    height: 38px;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    background-color: #FFF2E1;
+    border:1px solid orange;
+}
+
+
+
+.sec_p{
+    color: #464646;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 34px;
+    width: 409px;
+}
+
+.sec_p2{
+    color: #464646;
+    font-size: 30px;
+    font-size: 500;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 35px;
+}
+
+
+#project{
+    border: none;
+    width: 140px;
+    height: 25px;
+    font-size:18px;
+    font-size: 500;
+    background-color: #FFF2E1;
+}
+
+
+
+
+
+#main_img{
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+
+.main_pl{
+    width: 600px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #464646;
+}
+
+
+
+.main_p2l{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.mt{
+    margin-top: 80px;
+}
+
+
+
+.sec_we{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+    color: #1A1A1A;
+    margin-top: 100px;
+}
+
+
+
+
+
+.card{
+    background-image: url(education.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    border-radius: 20px;
+}
+.card:hover{
+    -webkit-box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.75);
+    transition: 1s ease;
+}
+
+
+.card_h1{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 132px;
+}
+
+
+.card_btn{
+    width: 283px;
+    height: 80px;
+    border-radius: 80px;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.card_btn:hover{
+    background-color: #23BDEEE5;
+    border: none;
+    transition: 1.2s ease;
+}
+
+
+.menu_btn{
+    display: none;
+    /* border: none; */
+    background: transparent;
+    height: 25px;
+    width: 40px;
+}
+
+
+
+
+.nav_menu{
+    display: flex;
+}
+
+@media(max-width:576px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main_pl{
+        width: 350px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .main_p2l{
+        font-size: 16px;
+        text-align: center;
+        margin-left:0;
+    }
+
+
+    #main_img{
+        width: 400px;
+        height: 200px;
+        margin-top: 25px;
+    }
+
+
+
+
+
+
+    .sec_p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        width: 300px;
+    }
+
+
+    .sec_p2{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .ul_gap{
+        display: none;
+    }
+
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 30px;
+        width: 400px;
+    }
+    .card_btn{
+        width: 200px;
+        height: 50px;
+    }
+
+    .menu_btn{
+        display: block;
+    }
+    .menu.active{
+        display: block;
+    }
+}

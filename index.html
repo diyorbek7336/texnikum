@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politexnikum</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container1 flex">
+            <h1 data-key="logo">Logo</h1>
+           <nav class="nav_menu">
+            <ul class="ul_gap flex">
+                <li><a href="#" data-key="home">Home</a></li>
+                <select id="project">
+                    <option value="pro1" id="pro1" data-key="directions">Directions</option>
+                    <option value="pro2" id="pro2" data-key="car_repair">Car repair</option>
+                    <option value="pro3" id="pro3" data-key="car_repair_dual">Car repair DUAL</option>
+                    <option value="pro4" id="pro4" data-key="tailoring">Tailoring</option>
+                    <option value="pro5" id="pro5" data-key="computer_graphics">Computer graphics</option>
+                </select>
+                <li><a href="#" data-key="leadership">Leadership</a></li>
+                <li><a href="#" data-key="communication">Communication</a></li>
+                <!-- <li><a href="#" data-key="about">About</a></li> -->
+            </ul>
+            
+            <select id="language">
+                <option value="uz">Uzbek</option>
+                <option value="ru">Russian</option>
+                <option value="en">English</option>
+            </select>
+           </nav>
+            
+            <button class="menu_btn">☰</button>
+        </div>
+        
+    </header>
+
+
+    <main>
+        <div class="container flex mt center">
+            <div class="left">
+                <p class="main_pl">Kasb-hunar ta'limini takomillashtirish: O‘quvchilarga bir vaqtning o‘zida ham o‘qish, ham ishlab daromad topish imkonini beradigan "dual ta’lim" shakli joriy etildi. Bu tizim samarasida 2 ming korxona bilan birgalikda 6 ming yigit-qiz o‘qitilmoqda. Shuningdek, yoshlarga 9-sinfdan keyin kasb-hunar maktabi, 11-sinfdan esa kollej va texnikumlarda turli mutaxassisliklar o‘rgatilmoqda. </p>
+                <p class="main_p2l">​Prezident Shavkat Mirziyoyev</p>
+            </div>
+
+
+            <div class="right">
+                <img src="main.jpg" alt="" id="main_img">
+            </div>
+        </div>
+       
+        
+    </main>
+
+
+    <section>
+        <div class="container">
+            <h1 class="sec_we" data-key="we">Biz haqimizda!</h1>
+            <p class="sec_p" data-key="ilm">"Ilm ersa javohirdur, amaldin bila,
+                Javohirni zinhordur, qum ichra qola."</p>  
+                <p class="sec_p2">Alisher Navoiy</p>
+            <div class="cards flex mt">
+                <div class="card">
+                    <h1 class="card_h1" data-key="student">About student education</h1>
+                    <button class="card_btn" data-key="more">More</button>
+                </div>
+
+
+                <div class="card">
+                    <h1 class="card_h1" data-key="student">About student education</h1>
+                    <button class="card_btn" data-key="more">More</button>
+                </div>
+            </div>
+
+           </div>
+    </section>
+</body>
+</html>
